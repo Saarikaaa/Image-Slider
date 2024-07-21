@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Sliders</title>
+    <link rel="stylesheet" href="is.css">
+</head>
+<body>
+    <div class="slider-nav">
+        <button onclick="showSlider(0)">FOOD</button>
+        <button onclick="showSlider(1)">PLACES</button>
+    </div>
+
+    <div class="sliders">
+        <div class="slider" id="slider1">
+            <div class="slides">
+                <img src="https://entertainingwithbeth.com/wp-content/uploads/2021/01/TomatoCreamSaucePasta_3.jpg" alt="Image 1">
+                <img src="https://vismaifood.com/storage/app/uploads/public/e12/7b7/127/thumb__1200_0_0_0_auto.jpg" alt="Image 2">
+                <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Instant-Pot-Mumbai-Pav-Bhaji-Recipe.jpg" alt="Image 3">
+                <img src="https://www.shutterstock.com/image-photo/burger-tomateoes-lettuce-pickles-on-600nw-2309539129.jpg" alt="Image 4">
+                <img src="https://images.picxy.com/cache/2020/12/5/0cb43a6c025126dbbb1cec526d2099bd.jpg" alt="Image 5">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg" alt="Image 6">
+            </div>
+            <button class="prev" onclick="changeSlide(-1, 0)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1, 0)">&#10095;</button>
+        </div>
+
+        <div class="slider" id="slider2">
+            <div class="slides">
+                <img src="https://coolerinsights.com/wp-content/uploads/2012/12/9-Elements-of-Japanese-Aesthetics.jpg" alt="Image 1">
+                <img src="https://png.pngtree.com/background/20231030/original/pngtree-london-street-view-a-3d-rendering-of-telephone-booth-bench-bicycle-picture-image_5810080.jpg" alt="Image 2">
+                <img src="https://www.photojaanic.com/blog/wp-content/uploads/sites/2/2017/08/inspiring-indian-photography-communities.jpg" alt="Image 3">
+                <img src="https://wallpapers.com/images/hd/switzerland-village-by-the-lake-c2s925gxhnk7bz8v.jpg" alt="Image 4">
+                <img src="https://static2.tripoto.com/media/filter/tst/img/344054/Image/1662793164_praneet_kumar_h8dcf_v98ma_unsplash.jpg.webp" alt="Image 5">
+                <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a2VyYWxhfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="Image 6">
+            </div>
+            <button class="prev" onclick="changeSlide(-1, 1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1, 1)">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="is.js"></script>
+</body>
+</html>
